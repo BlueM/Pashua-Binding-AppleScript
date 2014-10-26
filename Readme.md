@@ -5,7 +5,7 @@ This is an AppleSript language binding (glue code) for using [Pashua](http://www
 
 Usage
 ======
-This repository contains uncompiled AppleScript code. You can open “Example.applescript” and run it in the script editor, but it needs a compiled version of “Pashua.applescript”.
+This repository contains uncompiled AppleScript code. You can open “Example.applescript” and run it in the script editor, but it needs a compiled version of “Pashua.applescript” (which is also in this folder).
 
 Solution: simply open a Terminal window, run “compile.sh” (i.e.: drag the icon onto the Terminal window and hit Return) and you’re done. You will now have “Example.scpt” and “Pashua.scpt”. “Example.scpt” is the actual example, and “Pashua.scpt” is the “library” for handling the communication with Pashua.
 
@@ -22,7 +22,7 @@ It is compatible with Pashua 0.10. It will work with earlier versions of Pashua,
 
 Authors
 =========
-Written by Carsten Blüm, contributions by Eddy Roosnek and Hans Haesler.
+This code was written by Carsten Blüm, contributions by Eddy Roosnek and Hans Haesler.
 
 
 License
