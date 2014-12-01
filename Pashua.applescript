@@ -125,7 +125,7 @@ on getPashuaPath(customFolder)
 		
 		-- Try to find it in global application folder
 		if item ((path to applications folder from system domain as text) & "Pashua.app") exists then
-			return (path to applications folder from system domain as text) & "Pashua.app"
+			return (path to applications folder from system domain as text) & "Pashua.app:"
 		end if
 		
 		-- Try to find it in user's application folder
