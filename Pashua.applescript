@@ -21,7 +21,7 @@ on showDialog(config, customLocation)
 	
 	-- Write temporary file and fill it with the configuration string
 	set fhandle to open for access tmpfile with write permission
-	write (config as string) to fhandle as Çclass utf8È
+	write (config as string) to fhandle as Â«class utf8Â»
 	close access fhandle
 	
 	-- Get temporary file's POSIX path
