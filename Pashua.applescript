@@ -42,7 +42,7 @@ on showDialog(config, customLocation)
 	set pashuaResult to do shell script (pashuaCall)
 	
 	-- Delete the temporary file
-	tell application "Finder" to delete tmpfile
+	tell application "System Events" to delete file tmpfile -- silently and immediately delete the tempfile
 	
 	-- Check whether the dialog was submitted at all.
 	-- If this is not the case, return an empty list
