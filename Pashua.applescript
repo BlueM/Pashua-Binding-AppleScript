@@ -133,7 +133,7 @@ on getPashuaPath(customFolder)
 			return ((path to applications folder from user domain as text) & "Pashua.app:")
 		end if
 		
-		error "Could not find Pashua.app" & return & return & "It looks like it is is neither in one of the standard locations nor in the folder this AppleScript is in."
+		error "Could not find Pashua.app" & return & return & "It looks like it is neither in one of the standard locations nor in the folder this AppleScript is in."
 		
 	end tell
 	
