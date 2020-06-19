@@ -1,6 +1,6 @@
 
 -- This example loads script "Pashua.scpt" (to be compiled from "Pashua.applescript") from the
--- same folder which contains this file. Pashua.scpt handles the communcation with Pashua.app.
+-- same folder which contains this file. Pashua.scpt handles the communication with Pashua.app.
 -- You can either take the handlers out of Pashua.scpt and use them inline whenever you write
 -- a script which uses Pashua, use Pashua.scpt as an AppleScript Library (OS X 10.9 or newer)
 -- or use the "load script" approach used in this file.
